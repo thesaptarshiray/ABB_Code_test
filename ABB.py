@@ -1,12 +1,6 @@
-# BigMart Sales Prediction - Ensemble Stacking Approach
-# -----------------------------------------------------
-# Author: Saptarshi Ray
-# Description:
-# In this solution, I use an ensemble stacking approach that combines 
-# multiple models: RandomForest, XGBoost, LightGBM, and two small neural 
-# networks with different activations (Swish and ELU). 
-# A Ridge regression model is used as the meta-learner to combine the base models.
-# This setup gave me a stable LB score around ~1150.
+# BigMart Sales Prediction 
+#Saptarshi Ray
+
 
 import pandas as pd
 import numpy as np
